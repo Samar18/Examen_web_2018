@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Premier site web</title>
+</head>
+<body>
+<h1>Mon premier site web</h1>
+<img src="https://user.oc-static.com/files/343001_344000/343672.png" alt="pageweb" border=3 align=left/>
+<a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/structurer-sa-page">pageweb</a>
+<!-- j'ai utilisé openclassrooms: créer votre site web premiers pas ainsi que notre cours sur le html et css... -->
+<p>Veuillez remplir le formulaire ci dessous: </p>
+
+ <form name="formulaire1" action="">
+   Saisissez une note:<input type="texte" name="Note">
+   <input type="button" name="bouton" value="Valider" onclick="ValiderNote(this.form)">
+</form>
+
+<!--script de vérification de la validité de la note-->
+<script type="text/javascript">
+   function ValiderNote(formulaire1) {
+      if (formulaire.Note.value("A-Za-z") || (formulaire.Note.value<1)||(if (formulaire.Note.value>5)) {alert("Note saisie invalide.\nLe formulaire ne sera pas validé.")}
+      else {
+         alert("formulaire validé.\n");
+         
+         formulaire1.submit();
+      }
+   }
+</script>
+<!-- j'ai utilisé notre cours et openclassroms-->
+<!-- Question 3 réalisée-->
+</body>
+</html>
